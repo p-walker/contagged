@@ -5,7 +5,7 @@
          alt="{$entry.type|h}" title="{$entry.type|h}" />
     </td>
     <td>
-        <b><a href="entry.php?dn={$entry.dn|escape:url}">{$entry.name|h}, {$entry.givenname|h}</a></b>
+        <b><a href="entry.php?dn={$entry.dn|escape:url}">{$entry.name|h} {$entry.givenname|h}</a></b>
     </td>
     <td>
         <a href="index.php?org={$entry.organization|escape:url}">{$entry.organization|h}</a>&nbsp;

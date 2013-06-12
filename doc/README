@@ -7,8 +7,8 @@ authenticate users and store it's data.
 
 === REQUIREMENTS ===
 
-You need to have a running LDAP Server with some users (objectClass=posixUser)
-in it. It is important that you already have these users because LDAPab uses
+You need to have a running LDAP Server with some users (objectClass=posixAccount)
+in it. It is important that you already have these users because ConTagged uses
 them to authenticate.
 
 You need a webserver (peferable Apache) with PHP (4.3 or higher). PHP needs to
